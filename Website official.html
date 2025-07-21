@@ -1,0 +1,201 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-mesg | Smart Conversation Starts Here</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background: #0e0e0e url('https://i.ibb.co/DgtXnqHq/file-00000000262c61f9bb09325d9fe73d7a.png') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      overflow-x: hidden;
+      padding: 0 10px;
+    }
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: rgba(15, 32, 39, 0.8);
+      position: relative;
+    }
+    header h1 {
+      font-size: 3.5em;
+      animation: glow 1.5s infinite alternate;
+    }
+    header p {
+      font-size: 1.3em;
+      color: #00f0ff;
+    }
+    .cta-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #00f0ff;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      box-shadow: 0 5px 15px rgba(0, 240, 255, 0.6);
+      transform: perspective(100px) translateZ(10px);
+      transition: transform 0.3s;
+    }
+    .cta-btn:hover {
+      transform: perspective(100px) translateZ(20px);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: rgba(27, 27, 27, 0.9);
+      padding: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #00f0ff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00ff88;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      width: 100%;
+      margin: 0 auto 30px auto;
+      background: rgba(21, 21, 21, 0.85);
+      border-radius: 10px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.5em;
+      color: #00f0ff;
+    }
+    .feature-list, .team-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .feature-item, .team-member {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border: 1px solid #00f0ff;
+      border-radius: 10px;
+      text-align: center;
+      transform-style: preserve-3d;
+      transition: transform 0.4s;
+    }
+    .feature-item:hover, .team-member:hover {
+      transform: rotateY(10deg) translateY(-10px);
+      background: #333;
+    }
+    .vision-stats {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .vision-stat {
+      margin: 15px;
+      text-align: center;
+      font-size: 1.2em;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(27, 27, 27, 0.9);
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #00f0ff; }
+      to { text-shadow: 0 0 20px #00ff88; }
+    }
+    iframe.spline {
+      width: 100%;
+      height: 400px;
+      border: none;
+      margin-bottom: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 data-aos="fade-down">E-mesg</h1>
+    <p data-aos="fade-up">Smart Conversation Starts Here</p>
+    <a href="#contact" class="cta-btn" data-aos="zoom-in">Experience E-mesg</a>
+  </header>  <nav>
+    <a href="#about">About</a>
+    <a href="#core-features">Core Features</a>
+    <a href="#advanced-features">Advanced Features</a>
+    <a href="#vision">Vision</a>
+    <a href="#future">Future</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
+  </nav>  <iframe class="spline" src="https://my.spline.design/phone-3d-demo"></iframe>  <section id="about" data-aos="fade-up">
+    <h2>About E-mesg</h2>
+    <p>E-mesg is a futuristic messaging platform designed to bridge smart, real-time, and secure conversations globally. Our vision is to connect humans and AI for enriched communication experiences with cutting-edge features.</p>
+  </section>  <section id="core-features" data-aos="fade-right">
+    <h2>VERSION-1 FEATURES</h2>
+    <div class="feature-list">
+      <div class="feature-item">Real-Time Chat</div>
+      <div class="feature-item">Group Conversations</div>
+      <div class="feature-item">Status Updates</div>
+      <div class="feature-item">IN-Built Meetings</div>
+      <div class="feature-item">Message Scheduling</div>
+      <div class="feature-item">Tone shifting</div>
+
+    </div>
+  </section>  <section id="advanced-features" data-aos="fade-left">
+    <h2>VERSION-2 FEATURES</h2>
+    <div class="feature-list">
+      <div class="feature-item">Voice & Video Calls With AI</div>
+      <div class="feature-item">Azure colors</div>
+      <div class="feature-item">Auto Language Translation</div>
+      <div class="feature-item">Smart Replies</div>
+      <div class="feature-item">Auto Location Sharing</div>
+      <div class="feature-item">Multi-Device Sync</div>
+      <div class="feature-item">Message Sorting</div>
+      <div class="feature-item">Instant social Chats</div>
+      
+    </div>
+  </section>  <section id="vision" data-aos="fade-up">
+    <h2>THEME OF E-MESG</h2>
+    <div class="vision-stats">
+      <div class="vision-stat"><strong>2M+</strong><br>Global Users</div>
+      <div class="vision-stat"><strong>99.9%</strong><br>Uptime</div>
+      <div class="vision-stat"><strong>100+</strong><br>Countries</div>
+    </div>
+  </section>  <section id="future" data-aos="fade-up">
+    <h2>The Future is Connected</h2>
+    <p>We are integrating AI-driven communication, robots capable of understanding conversation context, and futuristic features to revolutionize the way people connect worldwide.</p>
+  </section>  <section id="team" data-aos="fade-up">
+    <h2>Our Team</h2>
+    <div class="team-list">
+      <div class="team-member"><h4>Yellumahanti Harsha Vardhan</h4><p>Founder & CEO</p></div>
+      <div class="team-member"><h4>PANANGAPALLI Sai Nikhil Krishna</h4><p>Co-Founder & COO</p></div>
+      <div class="team-member"><h4>Gandepalli Gowtham</h4><p>CTO</p></div>
+      <div class="team-member"><h4>Chintada Dinesh Karthik</h4><p>CIO</p></div>
+      <div class="team-member"><h4>Medabayina Poojitha</h4><p>CMO</p></div>
+    </div>
+  </section>  <section id="contact" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <p>Phone: 7416237272</p>
+    <p>Email: yellumahantiharshavardhan@gmail.com</p>
+    <p>CEO & Founder: Yellumahanti Harsha Vardhan</p>
+  </section>  <footer>
+    &copy; 2025 E-mesg. All rights reserved.
+  </footer>  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>  <script>
+    AOS.init({ duration: 1200 });
+  </script></body>
+</html>
